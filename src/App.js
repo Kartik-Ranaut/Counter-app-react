@@ -19,7 +19,7 @@ function App() {
         <div className="w-[200px] text-[3rem] text-center border-[1px] border-[black]">{count}</div>
         <button onClick={increaseHandler} className="w-[60px] text-[3rem] text-center border-[1px] border-[black]">+</button>
       </div>
-      <button onClick={resetHandler} className="bg-[white] p-[10px] rounded-[10px] w-[80px]">reset</button>
+      <button onClick={resetHandler} className="bg-[white] p-[10px] rounded-[10px] w-[80px]">Reset</button>
     </div>
   );
 }
